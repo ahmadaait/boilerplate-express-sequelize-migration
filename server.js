@@ -24,7 +24,11 @@ app.listen(process.env.PORT || 3000, () =>
 );
 
 // call routes
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) =>
+  res.send(
+    '<center><h1><strong>Welcome to Boilerplate NodeJS Express MySQL Sequelize<strong><h1><center>'
+  )
+);
 
 // PREFIX "/api/endpoint"
 app.use('/api', routes);
