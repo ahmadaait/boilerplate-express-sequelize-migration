@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { test, p } = require('../controllers/index');
+const { test } = require('../controllers/index');
 
 // ========== REGISTER ENDPOINT ========== //
 // test routes
